@@ -8,7 +8,6 @@ puts "Welcome to Tic Tac Toe!"
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "] 
 
 puts "Where woud you like to go?"
-index = 0;
 input = gets.strip
 input_to_index(input);
 move(board,index,"index")
